@@ -1,4 +1,4 @@
-# PDMPnb
+# Constrained PDMP
 
 In this repository, two notebooks are available:
 
