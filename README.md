@@ -2,7 +2,7 @@
 
 In this repository, two notebooks are available:
 
-* `ConstrainedLogReg-demo.ipynb`: shows how to declare a model using the PDMP library, it is similar though more specialised than the examples found in the documentation of [PDMP.jl](https://github.com/alan-turing-institute/PDMP.jl).
+* `ConstrainedLogReg-demo.ipynb`: shows how to declare a model using the PDMP library, it is similar though more specialised than the examples found in the documentation of [PDSampler.jl](https://github.com/alan-turing-institute/PDSampler.jl).
 * `ConstrainedLogReg-exps.ipynb`: which reproduces the experiment results presented in the paper *Piecewise Deterministic Markov Processes for Scalable Monte Carlo on Restricted Domains* by Bierkens et al.
 
 Executing the second notebook completely may take a significant amount of time for all the experiments to be computed.
@@ -20,11 +20,11 @@ Pkg.update()
 Pkg.add("IJulia")
 ```
 
-This demo uses the package [PDMP.jl](https://github.com/alan-turing-institute/PDMP.jl) which you can install by doing
+This demo uses the package [PDSampler.jl](https://github.com/alan-turing-institute/PDSampler.jl) which you can install by doing
 
 ```julia
-Pkg.clone("https://github.com/alan-turing-institute/PDMP.jl")
-Pkg.build("PDMP")
+Pkg.clone("https://github.com/alan-turing-institute/PDSampler.jl")
+Pkg.build("PDSampler")
 ```
 
 Next,
